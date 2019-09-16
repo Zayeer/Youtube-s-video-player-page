@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+img:hover, button:hover {
+    cursor: pointer;
+}
+
+/*nav-bar styling */
+/*left-side part of nav bar styling */
+header {
+    width: 100%;
+    padding: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    background-color: white;
+    opacity: 0.9;
+}
+
+img:nth-child(1) {
+    height: 18px;
+    width: 20px;
+}
+
+img:nth-child(2) {
+    height: 20px;
+    width: 90px;
+}
+
+sup {
+    font-size: 10;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    bottom: 12px;
+    left: 60px;
+    color: #606060;
+}
+
+#hb-button {
+    position: relative;
+    left: 30px;
+} 
+
+#yt-logo {
+    position: relative;
+    left: 60px;
+}
+
+/*middle part of the nav bar styling */
+.center-nav-container {
+    display: flex;
+    width: 45%;
+    position: relative;
+    left: -20px;
+    padding: 5px;
+}
+
+.center-nav-container form {
+    flex-grow: 1;
+    display: flex;
+    border: 1px solid grey;
+    border-radius: 1px;
+}
+.center-nav-container form input {
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid white;
+}
+.center-nav-container button {
+    padding: 5px;
+    width: 10%;
+}
+
+.center-nav-container form input:focus {
+    border: blue;
+}
+#search-icon {
+    height: 13px;
+}
+
+/*right side nav styling */
+#camera-icon {
+    height: 25px;
+}
+
+#messages-icon, #notification-icon {
+    height: 23px;
+}
+
+#login-image {
+    border: 1px solid white;
+    border-radius: 50px;
+    height: 35px;
+}
+
+.right-nav-container {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+    position: relative;
+    right: 20px;
+}
+
+.right-nav-container img:nth-child(2) {
+    height: 18px;
+    width: 30px;
+}
+
+/*--------------------------------------*/
+
+/*main section styling */
+main {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+main .left-side {
+    padding: 100px;
+    width: 50%;
+    margin: 0 10px 0 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+main .right-side {
+    padding: 100px;
+    margin: 0 60px 0 50px;
+    width: 30%;
+}
+
+h1 {
+    font-size: 18px;
+    margin-top: 290px;
+    position: relative;
+    right: 100px;
+    width: 200%;
+    color: #151710;
+}
+
+.left-side iframe {
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+    top: 10px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    width: 140%;
+    position: relative;
+    top: 20px;
+    right: 100px;
+
+}
+
+#like-dislike-icons {
+    width: 60%;
+    height: 35px;
+    position: relative;
+    right: 20px;
+    bottom: 8px;
+}
+
+.main-container hr {
+    width: 142%;
+    position: relative;
+    top: 20px;
+    right: 100px;
+}
+
+.user-profile-nav {
+    display: flex;
+    position: relative;
+    top: 40px;
+    right: 90px; 
+}
+
+#user-profile-pic {
+    height: 40px;
+    width: 5%;
+    border-radius: 100px;
+    position: relative;
+    bottom: 6px;
+    right: 10px;     
+}
+
+.user-profile-nav p {
+    position: relative;
+    left: 260px;
+    background-color: #cc0000;
+    border: 1px solid #cc0000;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 1.4rem;
+    padding: 7px;
+    font-family: "Roboto", sans-serif;
+    
+    height: 45px;
+}
+
+.user-profile-nav label {
+    color: #151710;
+    position: relative;
+    left: 7px;
+}
+
+label .small {
+    font-weight: normal;
+}
+
+.description p {
+    position: relative;
+    top: 70px;
+    right: 40px;
+}
+
+p a {
+    text-decoration: none;
+}
+
+#show-more {
+    color: hsla(0, 0, 7%, 0.6);
+}
+
+#show-more:hover {
+    cursor: pointer;
+}
+
+.user-profile-detail hr {
+    width: 71%;
+    top: 80px;
+}
+
+hr {
+    color: #e6e6e6;
+}
+
+.comments-section {
+    position: relative;
+    top: 80px;
+    right: 90px;
+}
+
+.comments-nav {
+    display: flex;
+    position: relative;
+    right: 10px;
+}
+
+.comments-nav h3 {
+    color: #595959;
+    font-weight: normal;
+}
+
+.comments-nav h3:nth-child(2) {
+    margin-left: 40px;
+}
+
+.comments-nav h3:nth-child(2):hover {
+    cursor: pointer;
+}
+
+.comments {
+    margin-top: 30px;
+}
+
+.comment-box {
+    display: flex;
+}
+
+.comment-box img, #viewer-image {
+    height: 45px;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.comment-box form{
+    flex-grow: 1;
+    display: flex;
+    margin-left: 10px;
+}
+
+.comment-box form input {
+    flex-grow: 0.56;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 1px solid;
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 8px;
+}
+
+.comment-box form input:focus {
+    outline: none;
+}
+
+.viewer-comments {
+    display: flex;
+    margin-top: 30px;
+}
+
+.user-comment{
+    margin-left: 20px;
+    line-height: 30px;
+}
+
+#dislike-button {
+    height: 12px;
+}
+
+#like-button {
+    height: 13px;
+}
+
+#reply {
+    font-size: 0.85em;
+}
+
+#reply:hover, #like-button:hover, #dislike-button:hover {
+    cursor: pointer;
+}
+
+.viewer-comments div:nth-child(2) strong {
+    font-size: 0.9em;
+}
+
+/*------------------------------------------------*/
+
+/*right-side part styling*/
+
+.right-side-nav {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    right: 80px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+label, #autoplay {
+    position: relative;
+    left: 100px;
+}
+
+#autoplay {
+    height: 40px;
+    width: 50px;
+    position: relative;
+    bottom: 10px;
+}
+
+#autoplay:hover {
+    cursor: pointer;
+}
+
+#thumbnail {
+    height: 130px;
+    width: 150px;
+    position: relative;
+    right: 30px;
+}   
+
+#thumbnail {
+    cursor: pointer;
+}
+
+.video-links {
+    display: flex;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+    width: 100%;
+    flex-grow: 1;
+    margin-bottom: 70px;
+}
+
+.video-link {
+    flex-grow: 1;
+}
+
+.video-link p {
+    width: 220%;
+}
+
+.video-link #channel-name {
+    width: 220%;
+}
+
+.right-side hr {
+    width: 195%;
+    position: relative;
+    top: -70px;
+}
+
+.video-link p:hover, #channel-name:hover {
+    cursor: pointer;
+}
+
+h4 {
+    color: #595959;
+}
